@@ -1,23 +1,119 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+<div class="container">
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Proposal</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="title">Title</label>  
+  <div class="col-md-6">
+  <input id="title" name="title" placeholder="Writing applications with Vert.x 3" class="form-control input-md" required="" type="text" ng-model = "foo">
+    
+  </div>
 </div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="abstract">Abstract</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="abstract" name="abstract"></textarea>
+  </div>
+</div>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name1">Author Name (1)</label>  
+  <div class="col-md-6">
+  <input id="name1" name="name1" placeholder="Joe Perez" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email1">Email (1)</label>  
+  <div class="col-md-6">
+  <input id="email1" name="email1" placeholder="foo@joedevelopers.com" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="bio1">Bio (1)</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="bio1" name="bio1"></textarea>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="tracks">Tracks</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="tracks-0">
+      <input name="tracks" id="tracks-0" value="1" type="checkbox">
+      Core Java Platfform
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="tracks-1">
+      <input name="tracks" id="tracks-1" value="2" type="checkbox">
+      Server-side Development
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="tracks-2">
+      <input name="tracks" id="tracks-2" value="" type="checkbox">
+      Web Development
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="tracks-3">
+      <input name="tracks" id="tracks-3" value="" type="checkbox">
+      Emerging Languages
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="tracks-4">
+      <input name="tracks" id="tracks-4" value="" type="checkbox">
+      Tools and Methodologies
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="tracks-5">
+      <input name="tracks" id="tracks-5" value="" type="checkbox">
+      Mobile Development
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="tracks-6">
+      <input name="tracks" id="tracks-6" value="" type="checkbox">
+      Startups and Success Stories
+    </label>
+  </div>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="comments">Comments</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="comments" name="comments"></textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
 </div>
